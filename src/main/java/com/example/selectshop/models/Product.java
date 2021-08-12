@@ -1,5 +1,8 @@
 package com.example.selectshop.models;
 
+import com.example.selectshop.dto.ItemDto;
+import com.example.selectshop.dto.ProductMypriceRequestDto;
+import com.example.selectshop.dto.ProductRequestDto;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

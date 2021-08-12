@@ -2,9 +2,9 @@ package com.example.selectshop.controller;
 
 
 import com.example.selectshop.models.Product;
-import com.example.selectshop.models.ProductMypriceRequestDto;
+import com.example.selectshop.dto.ProductMypriceRequestDto;
 import com.example.selectshop.models.ProductRepository;
-import com.example.selectshop.models.ProductRequestDto;
+import com.example.selectshop.dto.ProductRequestDto;
 import com.example.selectshop.service.ProductService;
 import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;

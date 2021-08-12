@@ -1,7 +1,7 @@
 package com.example.selectshop.utils;
 
 
-import com.example.selectshop.models.ItemDto;
+import com.example.selectshop.dto.ItemDto;
 import com.example.selectshop.models.Product;
 import com.example.selectshop.models.ProductRepository;
 import com.example.selectshop.service.ProductService;

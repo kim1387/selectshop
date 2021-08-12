@@ -1,6 +1,6 @@
 package com.example.selectshop.controller;
 
-import com.example.selectshop.models.ItemDto;
+import com.example.selectshop.dto.ItemDto;
 import com.example.selectshop.utils.NaverShopSearch;
 import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;

@@ -2,7 +2,7 @@ package com.example.selectshop.utils;
 
 
 
-import com.example.selectshop.models.ItemDto;
+import com.example.selectshop.dto.ItemDto;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.http.*;
@@ -21,7 +21,7 @@ public class NaverShopSearch {
         RestTemplate rest = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
         headers.add("X-Naver-Client-Id", "eX05KVVBWdgxMiWZ8n53");
-        headers.add("X-Naver-Client-Secret", "f8PGOd3z_5");
+            headers.add("X-Naver-Client-Secret", "f8PGOd3z_5");
         String body = "";
 
         HttpEntity<String> requestEntity = new HttpEntity<String>(body, headers);

@@ -1,4 +1,4 @@
-package com.example.selectshop.models;
+package com.example.selectshop.dto;
 
 import lombok.Getter;
 import org.json.JSONObject;

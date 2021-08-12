@@ -4,3 +4,7 @@ spring:
       enabled: true
   datasource:
     url: jdbc:h2:mem:default
+
+
+  thymeleaf:
+    prefix: classpath:/static/    # static 폴더가 root가 되도록 설정

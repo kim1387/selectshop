@@ -1,9 +1,9 @@
 package com.example.selectshop.service;
 
 
-import com.example.selectshop.models.ItemDto;
+import com.example.selectshop.dto.ItemDto;
 import com.example.selectshop.models.Product;
-import com.example.selectshop.models.ProductMypriceRequestDto;
+import com.example.selectshop.dto.ProductMypriceRequestDto;
 import com.example.selectshop.models.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
